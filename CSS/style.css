@@ -1,0 +1,96 @@
+body{
+    background: #24353f;
+    font-family: 'Heebo', sans-serif;
+
+    /* font-family: 'Titillium Web', sans-serif;  */
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+/* & Start navbar */
+
+#nav-home .navbar-brand{
+    color: #fff;
+}
+
+#nav-home .navbar{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+
+#nav-home .btn-outline-warning{
+    color: rgba(255,255,255,.5);
+}
+
+/* & Start navbar */
+
+/* ^ ====================================================== */
+
+/* & Start home style */
+#home-body{
+    height: 100vh;
+}
+
+/* & End home style */
+
+/* ^ ====================================================== */
+
+/* & Start Style LOgin */
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container .content{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.container .content h1{
+    color: #17a2b8;
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.container .content input{
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.container .content input:focus{
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.container .content input::placeholder{
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 1rem;
+}
+
+.container .form-control{
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.container .form-control:focus{
+    border-color: #80bdff;
+    outline: 0;
+}
+
+.container .content button:hover{
+    color: white;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.container .content p a:hover{
+    text-decoration: underline !important;
+}
+
+/* & End Style LOgin */
